@@ -1,0 +1,6 @@
+{
+  "name": "Portfolio Generator",
+  "description": "AI-Powered Portfolio Generator that creates stunning, responsive developer, designer, and creator portfolio websites with interactive project showcases and customizable themes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

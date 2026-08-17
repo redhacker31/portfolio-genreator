@@ -1,0 +1,41 @@
+# Dependencies & build artifacts
+node_modules/
+dist/
+
+# Environments and secrets
+.env
+.env.local
+.env.*.local
+
+# Allow example file
+!.env.example
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# System files
+.DS_Store
+Thumbs.db
+*.log

@@ -1,0 +1,206 @@
+{
+  "name": "Alex Morgan",
+  "headline": "Senior Full-Stack Software Engineer",
+  "tagline": "Building resilient web applications and distributed cloud services at scale.",
+  "bio": "Senior Full-Stack Software Engineer with 6+ years of experience designing, building, and scaling resilient web applications and distributed cloud services. Proficient in Python, TypeScript, React, and cloud architecture with a passion for developer tooling, clean code, and user-centric software design.",
+  "location": "San Francisco, CA",
+  "availability": "Available for Full-Time",
+  "contact": {
+    "email": "alex.morgan.dev@example.com",
+    "phone": "(555) 234-5678",
+    "github": "https://github.com/alexmorgan-demo",
+    "linkedin": "https://linkedin.com/in/alexmorgan-demo",
+    "twitter": null,
+    "website": null
+  },
+  "skills": [
+    {
+      "category": "Core Languages",
+      "items": [
+        "Python",
+        "TypeScript",
+        "JavaScript",
+        "SQL",
+        "HTML5",
+        "CSS3",
+        "Go"
+      ]
+    },
+    {
+      "category": "Frameworks & UI",
+      "items": [
+        "React",
+        "Node.js",
+        "Express",
+        "FastAPI",
+        "Django",
+        "Tailwind CSS",
+        "Next.js"
+      ]
+    },
+    {
+      "category": "Cloud & Distributed Systems",
+      "items": [
+        "Google Cloud Platform (GCP)",
+        "AWS",
+        "Docker",
+        "Kubernetes",
+        "CI/CD pipelines",
+        "Terraform"
+      ]
+    },
+    {
+      "category": "Databases & Storage",
+      "items": [
+        "PostgreSQL",
+        "Redis",
+        "MongoDB",
+        "Firestore"
+      ]
+    },
+    {
+      "category": "Developer Tooling",
+      "items": [
+        "Git",
+        "RESTful APIs",
+        "GraphQL",
+        "Microservices",
+        "Test-Driven Development (TDD)",
+        "Agile/Scrum"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "p1",
+      "title": "DevFlow - AI Developer Workflow Assistant",
+      "category": "AI & ML",
+      "tagline": "AI-powered CLI and web interface automating repetitive development tasks.",
+      "description": "Built a command-line tool and web interface that analyzes codebases and automates repetitive development tasks using generative AI models.",
+      "metrics": "\u2b50 500+ GitHub stars",
+      "techStack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "OpenAI/Gemini API",
+        "SQLite"
+      ],
+      "liveUrl": null,
+      "githubUrl": "https://github.com/alexmorgan-demo/devflow",
+      "featured": true
+    },
+    {
+      "id": "p2",
+      "title": "TaskPulse - Real-time Collaborative Task Manager",
+      "category": "Full-Stack",
+      "tagline": "Real-time Kanban board with collaborative editing and role-based permissions.",
+      "description": "Created a real-time collaborative Kanban board featuring drag-and-drop mechanics, instant updates via WebSockets, and secure role-based access control.",
+      "metrics": "\u26a1 Real-time sync (<300ms)",
+      "techStack": [
+        "TypeScript",
+        "React",
+        "Node.js",
+        "Socket.IO",
+        "PostgreSQL"
+      ],
+      "liveUrl": "https://taskpulse-demo.example.com",
+      "githubUrl": null,
+      "featured": true
+    },
+    {
+      "id": "p3",
+      "title": "CloudMetrics - Lightweight Infrastructure Monitoring Dashboard",
+      "category": "Systems & Cloud",
+      "tagline": "Lightweight resource monitoring tool providing interactive visual charts of server metrics.",
+      "description": "Engineered a lightweight resource monitoring tool providing interactive visual charts of server CPU, memory, and network throughput using Prometheus and Docker.",
+      "metrics": "\ud83d\udcca Interactive visual charts",
+      "techStack": [
+        "Python",
+        "Docker",
+        "Prometheus",
+        "Chart.js"
+      ],
+      "liveUrl": null,
+      "githubUrl": "https://github.com/alexmorgan-demo/cloudmetrics",
+      "featured": false
+    }
+  ],
+  "experience": [
+    {
+      "id": "e1",
+      "role": "Senior Software Engineer",
+      "company": "CloudScale Technologies",
+      "duration": "June 2022 \u2014 Present",
+      "location": "San Francisco, CA",
+      "description": "Architected and deployed high-throughput microservices and led frontend performance optimization initiatives.",
+      "highlights": [
+        "Architected and deployed microservices handling over 50 million daily API requests with 99.99% uptime.",
+        "Led the frontend redesign of the core analytics dashboard using React and TypeScript, decreasing page load times by 42%.",
+        "Mentored a team of 6 junior and mid-level engineers, establishing coding standards and automated code review workflows.",
+        "Implemented real-time telemetry streaming using WebSockets and Redis Pub/Sub, reducing data lag from 15 seconds to under 300 milliseconds."
+      ]
+    },
+    {
+      "id": "e2",
+      "role": "Full-Stack Software Engineer",
+      "company": "Nexlify Software Inc.",
+      "duration": "August 2019 \u2014 May 2022",
+      "location": "Seattle, WA",
+      "description": "Developed scalable APIs and reusable component libraries for high-throughput enterprise clients.",
+      "highlights": [
+        "Developed scalable REST and GraphQL APIs using Python (FastAPI) and PostgreSQL for high-throughput enterprise clients.",
+        "Built reusable modular component libraries in React that accelerated team feature delivery by 35%.",
+        "Integrated automated end-to-end testing pipelines with GitHub Actions, catching 25% more regression bugs before production deployment.",
+        "Collaborated with product managers and UX designers to iterate rapidly on user feedback cycles."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "ed1",
+      "degree": "Bachelor of Science in Computer Science",
+      "institution": "University of Washington",
+      "year": "2019",
+      "details": "Cumulative GPA: 3.8 / 4.0. Coursework: Distributed Systems, Data Structures & Algorithms, Database Management, Web Development"
+    }
+  ],
+  "services": [
+    {
+      "id": "s1",
+      "title": "Full-Stack Web Application Development",
+      "description": "End-to-end development of scalable, responsive, and high-performance web applications using React, Node.js, and Python.",
+      "tags": [
+        "React",
+        "FastAPI",
+        "TypeScript",
+        "Next.js"
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Cloud Architecture & Microservices Design",
+      "description": "Designing resilient, high-availability distributed systems and microservices deployed on GCP/AWS using Docker and Kubernetes.",
+      "tags": [
+        "GCP",
+        "Docker",
+        "Kubernetes",
+        "Terraform"
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "t1",
+      "quote": "Alex is an exceptional engineer who consistently delivers high-quality code. Their work on our real-time telemetry system completely transformed our product's performance.",
+      "author": "Sarah Jenkins",
+      "role": "Engineering Manager",
+      "company": "CloudScale Technologies"
+    }
+  ],
+  "achievements": [
+    "1st Place Winner - Pacific Northwest Regional Hackathon (2021)",
+    "Google Cloud Certified Professional Cloud Architect (2023)",
+    "Open Source Contributor with over 500+ GitHub stars across personal tooling repositories"
+  ],
+  "theme": "editorial"
+}

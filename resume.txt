@@ -1,0 +1,61 @@
+Alex Morgan
+San Francisco, CA | (555) 234-5678 | alex.morgan.dev@example.com
+LinkedIn: linkedin.com/in/alexmorgan-demo | GitHub: github.com/alexmorgan-demo
+
+PROFESSIONAL SUMMARY
+Senior Full-Stack Software Engineer with 6+ years of experience designing, building, and scaling resilient web applications and distributed cloud services. Proficient in Python, TypeScript, React, and cloud architecture with a passion for developer tooling, clean code, and user-centric software design.
+
+SKILLS
+- Languages: Python, TypeScript, JavaScript, SQL, HTML5, CSS3, Go
+- Frameworks & Libraries: React, Node.js, Express, FastAPI, Django, Tailwind CSS, Next.js
+- Cloud & DevOps: Google Cloud Platform (GCP), AWS, Docker, Kubernetes, CI/CD pipelines, Terraform
+- Databases: PostgreSQL, Redis, MongoDB, Firestore
+- Tools & Practices: Git, RESTful APIs, GraphQL, Microservices, Test-Driven Development (TDD), Agile/Scrum
+
+PROFESSIONAL EXPERIENCE
+
+Senior Software Engineer
+CloudScale Technologies | San Francisco, CA
+June 2022 – Present
+- Architected and deployed microservices handling over 50 million daily API requests with 99.99% uptime.
+- Led the frontend redesign of the core analytics dashboard using React and TypeScript, decreasing page load times by 42%.
+- Mentored a team of 6 junior and mid-level engineers, establishing coding standards and automated code review workflows.
+- Implemented real-time telemetry streaming using WebSockets and Redis Pub/Sub, reducing data lag from 15 seconds to under 300 milliseconds.
+
+Full-Stack Software Engineer
+Nexlify Software Inc. | Seattle, WA
+August 2019 – May 2022
+- Developed scalable REST and GraphQL APIs using Python (FastAPI) and PostgreSQL for high-throughput enterprise clients.
+- Built reusable modular component libraries in React that accelerated team feature delivery by 35%.
+- Integrated automated end-to-end testing pipelines with GitHub Actions, catching 25% more regression bugs before production deployment.
+- Collaborated with product managers and UX designers to iterate rapidly on user feedback cycles.
+
+EDUCATION
+
+Bachelor of Science in Computer Science
+University of Washington | Seattle, WA
+Graduated: May 2019
+- Cumulative GPA: 3.8 / 4.0
+- Coursework: Distributed Systems, Data Structures & Algorithms, Database Management, Web Development
+
+PROJECTS
+
+DevFlow - AI Developer Workflow Assistant
+- Built a command-line tool and web interface that analyzes codebases and automates repetitive development tasks.
+- Tech Stack: Python, FastAPI, React, OpenAI/Gemini API, SQLite
+- Repository: github.com/alexmorgan-demo/devflow
+
+TaskPulse - Real-time Collaborative Task Manager
+- Created a real-time Kanban board with collaborative editing, drag-and-drop mechanics, and role-based permissions.
+- Tech Stack: TypeScript, React, Node.js, Socket.IO, PostgreSQL
+- Live Demo: taskpulse-demo.example.com
+
+CloudMetrics - Lightweight Infrastructure Monitoring Dashboard
+- Engineered a lightweight resource monitoring tool providing interactive visual charts of server CPU, memory, and network throughput.
+- Tech Stack: Python, Docker, Prometheus, Chart.js
+- Repository: github.com/alexmorgan-demo/cloudmetrics
+
+ACHIEVEMENTS & AWARDS
+- 1st Place Winner - Pacific Northwest Regional Hackathon (2021)
+- Google Cloud Certified Professional Cloud Architect (2023)
+- Open Source Contributor with over 500+ GitHub stars across personal tooling repositories

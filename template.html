@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{PAGE_TITLE}}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="portfolio-container">
+    <!-- Header: Editorial Masthead -->
+    <header class="portfolio-header">
+      <div class="header-main">
+        <p class="edition-tag">Curriculum Vitae &bull; Portfolio Edition</p>
+        <h1 class="portfolio-name">{{NAME}}</h1>
+        {{HEADLINE_HTML}}
+        {{CONTACT_HTML}}
+      </div>
+      <div class="header-meta">
+        <p class="meta-label">Curated Dossier</p>
+        <p class="meta-sub">Ref: Gemini AI Engine</p>
+      </div>
+    </header>
+
+    <!-- Main Content Sections -->
+    <main class="portfolio-content">
+      {{SUMMARY_SECTION}}
+      {{SKILLS_SECTION}}
+      {{EXPERIENCE_SECTION}}
+      {{EDUCATION_SECTION}}
+      {{PROJECTS_SECTION}}
+      {{ACHIEVEMENTS_SECTION}}
+    </main>
+
+    <!-- Footer -->
+    <footer class="portfolio-footer">
+      <span>Portfolio generated automatically from resume.txt</span>
+      <span>Gemini Structured Extraction</span>
+      <span>&copy; {{NAME}}</span>
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+# Python Dependencies for AI-Assisted Resume Portfolio Generator
+# The generator runs using standard Python 3.10+ libraries (urllib, json, html, os, sys).
+# Optional packages for development and alternative environments:
+google-genai>=1.0.0
+python-dotenv>=1.0.0
