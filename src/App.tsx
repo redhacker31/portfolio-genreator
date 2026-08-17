@@ -2,13 +2,68 @@ import React, { useState, useEffect } from 'react';
 import { PortfolioHeader } from './components/PortfolioHeader';
 import { ResumePDFUploader } from './components/ResumePDFUploader';
 import { LivePortfolioPreview } from './components/LivePortfolioPreview';
-import { SAMPLE_PORTFOLIOS } from './data/samplePortfolios';
 import { PortfolioData, PortfolioTheme } from './types';
 import { generatePortfolioHtml } from './utils/portfolioHtmlGenerator';
 
+const INITIAL_PORTFOLIO: PortfolioData = {
+  name: 'Your Name',
+  headline: 'Software Engineer & Builder',
+  tagline: 'Building impactful, high-performance systems and user experiences.',
+  bio: 'Experienced technologist focused on scalable distributed systems, elegant frontends, and AI engineering.',
+  location: 'San Francisco, CA',
+  availability: 'Open to opportunities',
+  contact: {
+    email: 'contact@example.com',
+    github: 'https://github.com',
+    linkedin: 'https://linkedin.com'
+  },
+  skills: [
+    { category: 'Languages & Core', items: ['Python', 'TypeScript', 'JavaScript', 'SQL'] },
+    { category: 'Frameworks & Web', items: ['React', 'Node.js', 'FastAPI', 'Tailwind CSS'] },
+    { category: 'Cloud & Infrastructure', items: ['Docker', 'AWS', 'GCP', 'PostgreSQL', 'CI/CD'] }
+  ],
+  projects: [
+    {
+      id: 'p1',
+      title: 'DevFlow - Developer Workflow Assistant',
+      category: 'AI & ML',
+      tagline: 'CLI & web assistant analyzing codebases and automating tasks.',
+      description: 'Built a command-line tool and web interface that analyzes codebases and automates repetitive development tasks with AI.',
+      techStack: ['Python', 'FastAPI', 'React', 'Gemini API'],
+      featured: true
+    }
+  ],
+  experience: [
+    {
+      id: 'e1',
+      role: 'Software Engineer',
+      company: 'Tech Innovations Inc.',
+      duration: '2022 — Present',
+      location: 'San Francisco, CA',
+      description: 'Designing and deploying scalable backend microservices and modern web interfaces.',
+      highlights: [
+        'Architected and deployed microservices handling high-throughput production API requests.',
+        'Engineered responsive interfaces in React and TypeScript.'
+      ]
+    }
+  ],
+  education: [
+    {
+      id: 'ed1',
+      degree: 'B.S. in Computer Science',
+      institution: 'University of California',
+      year: '2018 — 2022'
+    }
+  ],
+  services: [],
+  testimonials: [],
+  achievements: [],
+  theme: 'editorial'
+};
+
 export default function App() {
   const [activeTab, setActiveTab] = useState<'upload' | 'preview'>('upload');
-  const [portfolioData, setPortfolioData] = useState<PortfolioData>(SAMPLE_PORTFOLIOS.systems_architect);
+  const [portfolioData, setPortfolioData] = useState<PortfolioData>(INITIAL_PORTFOLIO);
   const [currentTheme, setCurrentTheme] = useState<PortfolioTheme>('editorial');
 
   // Sync and save generated HTML to server
